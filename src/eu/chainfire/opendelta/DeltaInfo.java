@@ -19,7 +19,7 @@
  * along with OpenDelta. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package eu.chainfire.opendelta;
+package com.resurrection.ota;
 
 import org.json.JSONException;
 import org.json.JSONObject;

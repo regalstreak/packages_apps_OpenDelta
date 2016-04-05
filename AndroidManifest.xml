@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="eu.chainfire.opendelta"
+	package="com.resurrection.ota"
 	android:versionCode="10"
 	android:versionName="1.1" >
 	<uses-sdk
@@ -20,12 +20,12 @@
 	<uses-permission android:name="android.permission.RECOVERY" />
 
 	<application
-		android:name="eu.chainfire.opendelta.Application"
+		android:name="com.resurrection.ota.Application"
 		android:allowBackup="false"
 		android:icon="@mipmap/omnirom_logo"
 		android:label="@string/app_name" >
 		<activity
-			android:name="eu.chainfire.opendelta.MainActivity"
+			android:name="com.resurrection.ota.MainActivity"
 			android:label="@string/title"
 			android:launchMode="singleInstance"
 			android:theme="@style/Theme.OpenDelta" >
@@ -43,7 +43,7 @@
 			</intent-filter>
 		</activity>
 		<activity
-			android:name="eu.chainfire.opendelta.Shortcut"
+			android:name="com.resurrection.ota.Shortcut"
 			android:label="@string/title"
 			android:theme="@android:style/Theme.Translucent.NoTitleBar" >
 			<intent-filter>
@@ -52,18 +52,18 @@
 			</intent-filter>
 		</activity>
 		<activity
-			android:name="eu.chainfire.opendelta.SettingsActivity"
+			android:name="com.resurrection.ota.SettingsActivity"
 			android:label="@string/menu_settings"
 			android:theme="@style/Theme.OpenDelta.Settings" >
 		</activity>
-		<receiver android:name="eu.chainfire.opendelta.BootCompleteReceiver" >
+		<receiver android:name="com.resurrection.ota.BootCompleteReceiver" >
 			<intent-filter>
 				<action android:name="android.intent.action.BOOT_COMPLETED" />
 				<category android:name="android.intent.category.HOME" />
 			</intent-filter>
 		</receiver>
 		<service
-			android:name="eu.chainfire.opendelta.UpdateService"
+			android:name="com.resurrection.ota.UpdateService"
 			android:exported="false" />
 	</application>
 </manifest>

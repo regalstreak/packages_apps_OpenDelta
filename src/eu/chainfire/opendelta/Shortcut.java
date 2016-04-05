@@ -1,4 +1,4 @@
-package eu.chainfire.opendelta;
+package com.resurrection.ota;
 
 import android.app.Activity;
 import android.os.Bundle;

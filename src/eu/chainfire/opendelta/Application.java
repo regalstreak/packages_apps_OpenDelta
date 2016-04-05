@@ -19,7 +19,7 @@
  * along with OpenDelta. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package eu.chainfire.opendelta;
+package com.resurrection.ota;
 
 public class Application extends android.app.Application {
     @Override

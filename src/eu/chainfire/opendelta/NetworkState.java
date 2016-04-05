@@ -19,7 +19,7 @@
  * along with OpenDelta. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package eu.chainfire.opendelta;
+package com.resurrection.ota;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
