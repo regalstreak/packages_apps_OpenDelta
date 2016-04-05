@@ -3,7 +3,7 @@
  * Copyright (C) 2013-2015 The Omni Project
  * Copyright (C) 2015-2016 The Exodus Project
  * Copyright (C) 2016 Simao Gomes Viana
- * Copyright (C) 2016 Neil Agarwal
+ * Copyright (C) 2016 Neil "regalstreak" Agarwal
  */
 /* 
  * This file is part of OpenDelta.
