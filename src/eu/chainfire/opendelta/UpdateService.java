@@ -2,6 +2,8 @@
  * Copyright (C) 2013-2014 Jorrit "Chainfire" Jongma
  * Copyright (C) 2013-2015 The Omni Project
  * Copyright (C) 2015-2016 The Exodus Project
+ * Copyright (C) 2016 Simao Gomes Viana
+ * Copyright (C) 2016 Neil Agarwal
  */
 /* 
  * This file is part of OpenDelta.
