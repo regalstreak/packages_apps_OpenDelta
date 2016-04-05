@@ -18,16 +18,17 @@ fi
 # ------ CONFIGURATION ------
 
 HOME=/var/lib/jenkins
-RR=$HOME/android/generic/resurrection-6.0
+RR=android/generic/resurrection-6.0
+OP2=android/oneplus2/rr-6.0
 
 BIN_JAVA=java
-BIN_MINSIGNAPK=$HOME/delta/minsignapk.jar
-BIN_XDELTA=$HOME/delta/xdelta3
-BIN_ZIPADJUST=$HOME/delta/zipadjust
+BIN_MINSIGNAPK=$HOME/$OP2/delta/minsignapk.jar
+BIN_XDELTA=$HOME/$OP2/delta/xdelta3
+BIN_ZIPADJUST=$HOME/$OP2/delta/zipadjust
 
 FILE_MATCH=ResurrectionRemix-*.zip
 PATH_CURRENT=$HOME/$RR/out/target/product/$DEVICE
-PATH_LAST=$HOME/delta/last/$DEVICE
+PATH_LAST=$HOME/$OP2/delta/last/$DEVICE
 
 KEY_X509=$HOME/.keys/platform.x509.pem
 KEY_PK8=$HOME/.keys/platform.pk8
