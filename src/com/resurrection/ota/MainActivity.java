@@ -211,8 +211,7 @@ public class MainActivity extends Activity {
             // don't try this at home
             if (state != null) {
                 try {
-                    title = getString(getResources().getIdentifier(
-                            "state_" + state, "string", getPackageName()));
+                    title = getString(R.string.state_action_build);
                 } catch (Exception e) {
                     // String for this state could not be found (displays empty
                     // string)
