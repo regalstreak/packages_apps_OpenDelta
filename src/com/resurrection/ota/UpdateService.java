@@ -1712,9 +1712,6 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
     }
 
     private boolean isSupportedVersion() {
-        if (config.getVersion().indexOf(config.getOfficialVersionTag()) == -1) {
-            return false;
-        }
         return true;
     }
 

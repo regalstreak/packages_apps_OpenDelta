@@ -14,7 +14,9 @@
   <string name="action_about">О программе</string>
   <string name="about_content">
 <![CDATA[
-        &copy; <b>Jorrit \'Chainfire\' Jongma</b>, _COPYRIGHT_OPENDELTA_.<br>
+        &copy; _COPYRIGHT_OPENDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+        &copy; 2016 <b>Neil \'regalstreak\' Agarwal</b><br>
+        &copy; 2016 <b>Simao \'xdevs23\' Gomes Viana</b><br>
         <br>
         Изначально разработано для проекта <b>OmniROM</b><br>
         <br>

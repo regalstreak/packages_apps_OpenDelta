@@ -14,8 +14,11 @@
   <string name="action_about">O aplikaci</string>
   <string name="about_content">
 <![CDATA[
-Všechna práva vyhrazena &copy; _COPYRIGHT_OPENDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+        Copyright &copy; _COPYRIGHT_OPENDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+        Copyright &copy; 2016 <b>Neil \'regalstreak\' Agarwal</b><br>
+        Copyright &copy; 2016 <b>Simao \'xdevs23\' Gomes Viana</b><br>
         <br>
+
         Původně vytvořeno pro <b>Projekt OmniROM</b><br>
         <br>
         Licencováno na základě podmínek <b>GNU General Public License, verze 3.0 (GPLv3)</b><br>
