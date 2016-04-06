@@ -124,10 +124,8 @@ echo "  \"version\": 1," >> $DELTA
 echo "  \"in\": {" >> $DELTA
 echo "      \"name\": \"$FILE_LAST\"," >> $DELTA
 echo "      \"size_store\": $SIZE_LAST_STORE," >> $DELTA
-echo "      \"size_store_signed\": $SIZE_LAST_STORE_SIGNED," >> $DELTA
 echo "      \"size_official\": $SIZE_LAST," >> $DELTA
 echo "      \"md5_store\": \"$MD5_LAST_STORE\"," >> $DELTA
-echo "      \"md5_store_signed\": \"$MD5_LAST_STORE_SIGNED\"," >> $DELTA
 echo "      \"md5_official\": \"$MD5_LAST\"" >> $DELTA
 echo "  }," >> $DELTA
 echo "  \"update\": {" >> $DELTA
@@ -137,20 +135,11 @@ echo "      \"size_applied\": $SIZE_CURRENT_STORE," >> $DELTA
 echo "      \"md5\": \"$MD5_UPDATE\"," >> $DELTA
 echo "      \"md5_applied\": \"$MD5_CURRENT_STORE\"" >> $DELTA
 echo "  }," >> $DELTA
-echo "  \"signature\": {" >> $DELTA
-echo "      \"name\": \"$FILE_LAST_BASE.sign\"," >> $DELTA
-echo "      \"size\": $SIZE_SIGN," >> $DELTA
-echo "      \"size_applied\": $SIZE_CURRENT_STORE_SIGNED," >> $DELTA
-echo "      \"md5\": \"$MD5_SIGN\"," >> $DELTA
-echo "      \"md5_applied\": \"$MD5_CURRENT_STORE_SIGNED\"" >> $DELTA
-echo "  }," >> $DELTA
 echo "  \"out\": {" >> $DELTA
 echo "      \"name\": \"$FILE_CURRENT\"," >> $DELTA
 echo "      \"size_store\": $SIZE_CURRENT_STORE," >> $DELTA
-echo "      \"size_store_signed\": $SIZE_CURRENT_STORE_SIGNED," >> $DELTA
 echo "      \"size_official\": $SIZE_CURRENT," >> $DELTA
 echo "      \"md5_store\": \"$MD5_CURRENT_STORE\"," >> $DELTA
-echo "      \"md5_store_signed\": \"$MD5_CURRENT_STORE_SIGNED\"," >> $DELTA
 echo "      \"md5_official\": \"$MD5_CURRENT\"" >> $DELTA
 echo "  }" >> $DELTA
 echo "}" >> $DELTA
