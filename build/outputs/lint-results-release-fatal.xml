@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.1.1 rc1">
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`property_version`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;property_version&quot;>ro.rr.version&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="8"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`property_device`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;property_device&quot;>ro.rr.device&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="11"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`filename_base`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;filename_base&quot;>%s&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="14"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`path_base`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;path_base&quot;>OpenDelta&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="17"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`url_base_delta`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;url_base_delta&quot;>http://downloads.regalstreak.me/oneplus2/ROMs/Resurrection-Remix-6.x/Delta/&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="20"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`url_base_update`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;url_base_update&quot;>http://downloads.regalstreak.me/oneplus2/ROMs/Resurrection-Remix-6.x/Delta/&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="23"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`url_base_full`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;url_base_full&quot;>http://downloads.regalstreak.me/oneplus2/ROMs/Resurrection-Remix-6.x/Full/&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="26"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`url_base_json`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;url_base_json&quot;>http://downloads.regalstreak.me/oneplus2/ROMs/Resurrection-Remix-6.x/Full/json.php&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="29"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`inject_signature_keys`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;inject_signature_keys&quot;>&lt;![CDATA[v2 {64,0x9d3ef4e7,{3451855145,2574857780,2212470067,2065828617,2220798544,1453138002,3035953543,349537325,3471576065,3709424322,1499657722,626083680,3508502098,135982109,2406850010,2674691998,3903782739,3673009508,3196976129,124737966,3727608735,3698514242,2926317182,2598715876,2200551045,3324466456,2027872794,1316834497,3538558575,4094723182,3091112109,152419065,961268200,2817719766,2542630774,735678394,2025086356,3319743251,3482513753,3754037486,2186326636,2162920719,1933319201,1362420666,3093979107,3944963833,3173846995,3307766644,4239176696,3380551792,3189093155,3679104199,4159403556,3373361362,737822358,2043192588,3446724037,2184123451,3680508975,492248740,1654088879,3739912969,188663922,4074712169},{2400585854,3884144496,312737665,3547448515,3596760612,2953776441,190371072,1980790627,3681130262,827104214,1597200957,1333455720,1391423898,4233042842,3284284880,50168935,2424437529,2771213818,3715896496,3320142743,3649069246,2702994054,839870558,1257344415,3116165843,4195920375,2497396347,1334871168,3550010104,64795091,3042249326,4155098628,123980023,3500559217,1825888674,443352554,3891428201,2484397377,4136956616,4201065713,2547196505,3411971111,2135688607,393830937,4198844531,3826748593,3979050977,1220766766,3592470842,2278136,1841247501,3507376964,3313320668,3849023694,2185649624,3043141327,1601153541,939583339,2083130022,3508853409,2068728550,3713282728,2402412627,1764295415}}]]>&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="38"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`keep_screen_on_devices`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string-array name=&quot;keep_screen_on_devices&quot;>"
+        errorLine2="               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="51"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`official_version_tag`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;cs&quot; (Czech), &quot;da&quot; (Danish), &quot;de&quot; (German), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;uk&quot; (Ukrainian), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;official_version_tag&quot;>NIGHTLY&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/config.xml"
+            line="57"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`app_name`&quot; is not translated in &quot;sv&quot; (Swedish)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;app_name&quot;>OpenDelta&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="4"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`title_networks`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;title_networks&quot;>Auto download networks&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="7"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`network_2g`&quot; is not translated in &quot;sv&quot; (Swedish)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;network_2g&quot;>2G&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="8"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`network_3g`&quot; is not translated in &quot;sv&quot; (Swedish)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;network_3g&quot;>3G&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="9"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`network_4g`&quot; is not translated in &quot;sv&quot; (Swedish)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;network_4g&quot;>4G&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="10"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`network_wifi`&quot; is not translated in &quot;sv&quot; (Swedish)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;network_wifi&quot;>Wi-Fi&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="11"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`network_ethernet`&quot; is not translated in &quot;sv&quot; (Swedish)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;network_ethernet&quot;>Ethernet&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="12"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`about_content`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;about_content&quot;>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="15"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_action_none`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_action_none&quot;>Your system is up to date.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="26"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_action_ready`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_action_ready&quot;>Update ready to flash.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="35"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_error_disk_space`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_error_disk_space&quot;>Not enough disk space!&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="36"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_error_unknown`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_error_unknown&quot;>Unknown error.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="37"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`notify_checking`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;notify_checking&quot;>Checking for update &amp;#8230;&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="40"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`last_checked`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;last_checked&quot; formatted=&quot;false&quot;>%s at %s&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="41"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`last_checked_never`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;last_checked_never&quot;>We\&apos;ve never checked, maybe you would like to do so?&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="42"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`button_check_now`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;button_check_now&quot;>Check for update&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="43"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`button_flash_now`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;button_flash_now&quot;>Flash&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="44"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`action_secure_mode`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;action_secure_mode&quot;>Secure&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="48"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`secure_mode_enabled_title`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;secure_mode_enabled_title&quot;>Secure mode: enabled&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="49"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`secure_mode_enabled_description`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;secure_mode_enabled_description&quot;>&lt;![CDATA[The update\&apos;s cryptographic signature will be verified before flashing to confirm its origin, and no additional updates will be flashed. This mode is only compatible with &lt;b>TWRP&lt;/b>.]]>&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="50"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`secure_mode_disabled_title`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;secure_mode_disabled_title&quot;>Secure mode: disabled&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="51"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`secure_mode_disabled_description`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;secure_mode_disabled_description&quot;>&lt;![CDATA[Additional updates are flashed if present. Note that any (malicious) software package can place these updates and gain full system access. Caution is advised.]]>&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="52"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`recovery_notice_title`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;recovery_notice_title&quot;>Notice&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="53"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`recovery_notice_description_secure`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;recovery_notice_description_secure&quot;>&lt;![CDATA[Flashing updates in the current mode is only supported on &lt;b>TWRP&lt;/b> recoveries. Please make sure you are running a compatible recovery before continuing.]]>&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="54"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`recovery_notice_description_not_secure`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;recovery_notice_description_not_secure&quot;>&lt;![CDATA[Flashing updates in the current mode is only officially supported on &lt;b>TWRP&lt;/b> recoveries. &lt;i>Official&lt;/i> &lt;b>CWM&lt;/b> builds are &lt;i>not&lt;/i> supported, though some &lt;i>community-built&lt;/i> versions of &lt;b>CWM&lt;/b> &lt;i>may&lt;/i> still work. Please make sure you are running a compatible recovery before continuing.]]>&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="55"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`flash_after_update_notice_title`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;flash_after_update_notice_title&quot;>Notice&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="56"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`flash_after_update_notice_description`&quot; is not translated in &quot;da&quot; (Danish), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;flash_after_update_notice_description&quot;>&lt;![CDATA[Additional updates are present in the &lt;b>FlashAfterUpdate&lt;/b> folder, but secure mode is enabled. If you continue, these additional updates will &lt;b>not&lt;/b> be flashed.]]>&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="57"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_error_not_official_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_error_not_official_title&quot;>Update disabled.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="58"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_error_not_official_extra`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_error_not_official_extra&quot; formatted=&quot;false&quot;>Update of %s not possible&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="59"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`button_build_delta`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;button_build_delta&quot;>Download&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="60"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`button_stop`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;button_stop&quot;>Stop&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="61"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_action_build`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_action_build&quot;>Update available.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="62"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_action_build_delta`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_action_build_delta&quot;>Delta update possible.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="63"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_action_build_full`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_action_build_full&quot;>Full update possible.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="64"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_error_download`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_error_download&quot;>Download problem.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="65"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`text_current_version_header_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;text_current_version_header_title&quot;>Current Version&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="66"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`text_last_checked_header_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;text_last_checked_header_title&quot;>Last Checked&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="67"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`text_update_version_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;text_update_version_title&quot;>Update Version&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="68"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`text_download_size_header_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;text_download_size_header_title&quot;>Download Size&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="69"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`text_download_size_unknown`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;text_download_size_unknown&quot;>Unknown&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="70"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`auto_download`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;auto_download&quot;>Schedule&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="71"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`auto_download_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;auto_download_title&quot;>Scheduler action&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="72"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`download_disabled`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;download_disabled&quot;>Disabled&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="73"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`check_only`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;check_only&quot;>Check and notify&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="74"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`download_delta`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;download_delta&quot;>Auto download delta&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="75"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`download_full`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;download_full&quot;>Auto download all&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="76"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`menu_settings`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;menu_settings&quot;>Settings&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="77"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`category_download`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;category_download&quot;>Auto download&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="78"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`charge_only_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;charge_only_title&quot;>Charger only&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="79"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`charge_only_message`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;charge_only_message&quot;>Download only when on charger&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="80"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`battery_level_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;battery_level_title&quot;>Min battery percent&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="81"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`twenty_five_percent`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;twenty_five_percent&quot;>25&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="82"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`fifty_percent`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;fifty_percent&quot;>50;&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="83"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`seventy_five_percent`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;seventy_five_percent&quot;>75&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="84"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`notify_title_error`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;notify_title_error&quot;>Problem checking for update&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="85"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`notify_title_flash`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;notify_title_flash&quot;>Update ready to flash&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="86"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`notify_title_download`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;notify_title_download&quot;>Update ready to download&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="87"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`last_checked_never_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;last_checked_never_title&quot;>Press \&apos;Check for update\&apos;&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="88"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`screen_state_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;screen_state_title&quot;>Screen off&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="89"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`screen_state_message`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;screen_state_message&quot;>Download only when screen is off&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="90"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`category_scheduler`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;category_scheduler&quot;>Auto update&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="91"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`scheduler_mode_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;scheduler_mode_title&quot;>Scheduler mode&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="92"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`scheduler_smart`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;scheduler_smart&quot;>Smart&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="93"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`scheduler_daily`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;scheduler_daily&quot;>Daily&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="94"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`scheduler_weekly`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;scheduler_weekly&quot;>Weekly&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="95"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`scheduler_daily_time`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;scheduler_daily_time&quot;>Time&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="96"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`scheduler_week_day`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;scheduler_week_day&quot;>Day&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="97"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`networks_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;networks_title&quot;>Networks&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="98"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`networks_message`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;networks_message&quot;>Download only on networks types&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="99"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`category_flashing`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;category_flashing&quot;>Flashing&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="100"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`secure_mode_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;secure_mode_title&quot;>Secure mode&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="101"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`state_error_connection`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;state_error_connection&quot;>No data connection.&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="102"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`category_admin`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;category_admin&quot;>Maintenance&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="103"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`clear_files_title`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;clear_files_title&quot;>Clean update files&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="104"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`clear_files_summary`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;clear_files_summary&quot;>Delete existing update files to force downloading full update&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="105"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        severity="Fatal"
+        message="&quot;`clean_files_feedback`&quot; is not translated in &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;el&quot; (Greek), &quot;es&quot; (Spanish), &quot;fr&quot; (French), &quot;it&quot; (Italian), &quot;nl&quot; (Dutch), &quot;pl&quot; (Polish), &quot;pt&quot; (Portuguese), &quot;pt-PT&quot; (Portuguese: Portugal), &quot;ru&quot; (Russian), &quot;sv&quot; (Swedish), &quot;tr&quot; (Turkish), &quot;zh-CN&quot; (Chinese: China)"
+        category="Correctness:Messages"
+        priority="8"
+        summary="Incomplete translation"
+        explanation="If an application has more than one locale, then all the strings declared in one language should also be translated in all other languages.
+
+If the string should *not* be translated, you can add the attribute `translatable=&quot;false&quot;` on the `&lt;string>` element, or you can define all your non-translatable strings in a resource file called `donottranslate.xml`. Or, you can ignore the issue with a `tools:ignore=&quot;MissingTranslation&quot;` attribute.
+
+By default this detector allows regions of a language to just provide a subset of the strings and fall back to the standard language strings. You can require all regions to provide a full translation by setting the environment variable `ANDROID_LINT_COMPLETE_REGIONS`.
+
+You can tell lint (and other tools) which language is the default language in your `res/values/` folder by specifying `tools:locale=&quot;languageCode&quot;` for the root `&lt;resources>` element in your resource file. (The `tools` prefix refers to the namespace declaration `http://schemas.android.com/tools`.)"
+        errorLine1=" &lt;string name=&quot;clean_files_feedback&quot; formatted=&quot;false&quot;>Deleted %d files. Now press \&apos;Check for updates\&apos;&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="adt">
+        <location
+            file="/home/simao/workspace/OpenDelta_RR/res/values/strings.xml"
+            line="106"
+            column="10"/>
+    </issue>
+
+</issues>

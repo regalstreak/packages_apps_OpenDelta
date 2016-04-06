@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/simao/workspace/OpenDelta_RR/build/intermediates/res/merged/release/values-sw600dp-v13/values-sw600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-sw600dp/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 52,
+                        "endColumn": 41,
+                        "endOffset": 89
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,387 @@
+[
+    {
+        "outputFile": "/home/simao/workspace/OpenDelta_RR/build/intermediates/res/merged/release/values-nl/values-nl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 2,
+                        "startOffset": 494,
+                        "endColumn": 43,
+                        "endOffset": 535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 53,
+                    "endOffset": 150
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 177,
+                        "endColumn": 51,
+                        "endOffset": 226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 155,
+                    "endColumn": 46,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 85,
+                        "endColumn": 44,
+                        "endOffset": 127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 99,
+                    "endOffset": 297
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 1136,
+                        "endColumn": 97,
+                        "endOffset": 1231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 302,
+                    "endColumn": 41,
+                    "endOffset": 339
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 229,
+                        "endColumn": 39,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 344,
+                    "endColumn": 41,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 269,
+                        "endColumn": 39,
+                        "endOffset": 306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 41,
+                    "endOffset": 423
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 2,
+                        "startOffset": 309,
+                        "endColumn": 39,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 428,
+                    "endColumn": 52,
+                    "endOffset": 476
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 2,
+                        "startOffset": 394,
+                        "endColumn": 50,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 481,
+                    "endColumn": 50,
+                    "endOffset": 527
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 2,
+                        "startOffset": 445,
+                        "endColumn": 48,
+                        "endOffset": 491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endColumn": 46,
+                    "endOffset": 574
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 2,
+                        "startOffset": 349,
+                        "endColumn": 44,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 579,
+                    "endColumn": 80,
+                    "endOffset": 655
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1234,
+                        "endColumn": 78,
+                        "endOffset": 1310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 660,
+                    "endColumn": 61,
+                    "endOffset": 717
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 920,
+                        "endColumn": 65,
+                        "endOffset": 983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 722,
+                    "endColumn": 73,
+                    "endOffset": 791
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 1058,
+                        "endColumn": 77,
+                        "endOffset": 1133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 796,
+                    "endColumn": 67,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 986,
+                        "endColumn": 71,
+                        "endOffset": 1055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 864,
+                    "endColumn": 74,
+                    "endOffset": 934
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 2,
+                        "startOffset": 538,
+                        "endColumn": 78,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 939,
+                    "endColumn": 74,
+                    "endOffset": 1009
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 2,
+                        "startOffset": 617,
+                        "endColumn": 78,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1014,
+                    "endColumn": 65,
+                    "endOffset": 1075
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 850,
+                        "endColumn": 69,
+                        "endOffset": 917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1080,
+                    "endColumn": 69,
+                    "endOffset": 1145
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 2,
+                        "startOffset": 696,
+                        "endColumn": 73,
+                        "endOffset": 767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1150,
+                    "endColumn": 75,
+                    "endOffset": 1221
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 2,
+                        "startOffset": 770,
+                        "endColumn": 79,
+                        "endOffset": 847
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1226,
+                    "endColumn": 48,
+                    "endOffset": 1270
+                },
+                "from": {
+                    "file": "/home/simao/workspace/OpenDelta_RR/res/values-nl/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 130,
+                        "endColumn": 46,
+                        "endOffset": 174
+                    }
+                }
+            }
+        ]
+    }
+]

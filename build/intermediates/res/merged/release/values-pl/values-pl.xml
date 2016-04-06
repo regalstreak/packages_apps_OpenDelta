@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content">
+
+        Wszelkie prawa zastrzeżone &amp;copy; _COPYRIGHT_OPENDELTA_ &lt;b>Jorrit \'Chainfire\' Jongma&lt;/b>&lt;br>
+        &lt;br>
+        Oryginalnie stworzona w &lt;b>Projekcie OmniROM&lt;/b>&lt;br>
+        &lt;br>
+        Na licencji &lt;b>GNU General Public License, wersja 3.0 (GPLv3)&lt;/b>&lt;br>
+        &lt;br>
+        Dekodowanie delta oparte na &lt;b>xdelta&lt;/b>, copyright &amp;copy; _COPYRIGHT_XDELTA_ &lt;b>Joshua MacDonald&lt;/b>&lt;br>
+    </string>
+    <string name="action_about">O aplikacji</string>
+    <string name="action_networks">Sieci</string>
+    <string name="action_secure_mode">Tryb Bezpieczny</string>
+    <string name="app_name">OpenDelta</string>
+    <string name="auto_download">Harmonogram</string>
+    <string name="auto_download_title">Harmonogram działań</string>
+    <string name="battery_level_title">Min. procent baterii</string>
+    <string name="button_build_delta">Pobierz</string>
+    <string name="button_check_now">Sprawdź dostępność aktualizacji</string>
+    <string name="button_flash_now">Flash</string>
+    <string name="button_stop">Zatrzymaj</string>
+    <string name="category_download">Automatyczne pobieranie</string>
+    <string name="category_flashing">Flashowanie</string>
+    <string name="category_scheduler">Aktualizuj automatycznie</string>
+    <string name="charge_only_message">Pobierz tylko kiedy jest na ładowarce</string>
+    <string name="charge_only_title">Ładowarka tylko</string>
+    <string name="check_only">Sprawdź i powiadom</string>
+    <string name="download_delta">Automatyczne pobieranie delta</string>
+    <string name="download_disabled">Nieaktywne</string>
+    <string name="download_full">Automatyczne pobieranie wszystkiego</string>
+    <string formatted="false" name="error_disk_space_sub">%d MB dostępne, %d MB wymagane</string>
+    <string name="fifty_percent">50;</string>
+    <string name="flash_after_update_notice_description">Dodatkowe aktualizacje znajdują się w folderze &lt;b>FlashAfterUpdate&lt;/b>, ale tryb bezpieczny jest włączony. Jeśli chcesz kontynuować, te dodatkowe aktualizacje &lt;b>nie&lt;/b> zostaną zainstalowane.</string>
+    <string name="flash_after_update_notice_title">Uwaga</string>
+    <string formatted="false" name="last_checked">%s w %s</string>
+    <string name="last_checked_never">Nigdy nie wyszukiwaliśmy, może ty chcesz to zrobić?</string>
+    <string name="last_checked_never_title">Naciśnij \"Sprawdź aktualizację\"</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="network_2g">2G</string>
+    <string name="network_3g">3G</string>
+    <string name="network_4g">4G</string>
+    <string name="network_ethernet">Ethernet</string>
+    <string name="network_unknown">Inne</string>
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="networks_message">Pobierz tylko na typach sieci</string>
+    <string name="networks_title">Sieci</string>
+    <string name="notify_checking">Sprawdzanie aktualizacji…</string>
+    <string name="notify_title_download">Aktualizacja gotowa do pobrania</string>
+    <string name="notify_title_error">Problem podczas sprawdzania aktualizacji</string>
+    <string name="notify_title_flash">Aktualizacja gotowa do zaflashowania</string>
+    <string name="notify_update_available">Dostępna nowa aktualizacja</string>
+    <string name="recovery_notice_description_not_secure">Instalowanie aktualizacji w tym trybie jest oficjalnie obsługiwane tylko przez recovery &lt;b>TWRP&lt;/b>. &lt;i>Oficjalne&lt;/i> wersje &lt;b>CWM&lt;/b> &lt;i>nie&lt;/i> są wspierane, choć niektóre wersje &lt;b>CWM&lt;/b> &lt;i>tworzone przez społeczność&lt;/i> &lt;i>mogą&lt;/i> wciąż działać. Upewnij się, że używasz kompatybilnego recovery przed kontynuowaniem.</string>
+    <string name="recovery_notice_description_secure">Instalowanie aktualizacji w obecnym trybie jest obsługiwane tylko przez recovery &lt;b>TWRP&lt;/b>. Upewnij się, że używasz zgodnego recovery przed kontynuacją.</string>
+    <string name="recovery_notice_title">Uwaga</string>
+    <string name="scheduler_daily">Codziennie</string>
+    <string name="scheduler_mode_title">Tryb harmonogramu</string>
+    <string name="scheduler_smart">Inteligentne</string>
+    <string name="screen_state_message">Pobierz tylko kiedy ekran jest wyłączony</string>
+    <string name="screen_state_title">Wyłącz ekran</string>
+    <string name="secure_mode_disabled_description">Dodatkowe aktualizacje zostaną zainstalowane, jeśli będą dostępne. Należy pamiętać, że każdy program (złośliwy) może umieścić tam aktualizację i przejąć pełną kontrolę nad systemem. Zaleca się ostrożność.</string>
+    <string name="secure_mode_disabled_title">Tryb bezpieczny: wyłączony</string>
+    <string name="secure_mode_enabled_description">Podpis kryptograficzny aktualizacji zostanie zweryfikowany przed w graniem w celu potwierdzenia jego pochodzenia, żadne dodatkowe aktualizacje nie zostaną zainstalowane. Ten tryb jest kompatybilny tylko z &lt;b>TWRP&lt;/b>.</string>
+    <string name="secure_mode_enabled_title">Tryb bezpieczny: włączony</string>
+    <string name="secure_mode_title">Bezpieczny tryb</string>
+    <string name="seventy_five_percent">75</string>
+    <string name="state_action_applying">Patchowanie …</string>
+    <string name="state_action_applying_md5">v …</string>
+    <string name="state_action_applying_patch">Patchowanie …</string>
+    <string name="state_action_build">Aktualizacja jest dostępna.</string>
+    <string name="state_action_build_delta">Delta aktualizacja możliwa.</string>
+    <string name="state_action_build_full">Pełna aktualizacja możliwa.</string>
+    <string name="state_action_checking">Wyszukiwanie aktualizacji …</string>
+    <string name="state_action_checking_md5">Weryfikacja pliku …</string>
+    <string name="state_action_downloading">Pobieranie …</string>
+    <string name="state_action_none">Twój system jest aktualny.</string>
+    <string name="state_action_ready">Aktualizacja gotowa do zaflashowania.</string>
+    <string name="state_action_searching">Wyszukiwanie plików …</string>
+    <string name="state_action_searching_md5">Weryfikacja pliku …</string>
+    <string name="state_error_connection">Brak połączenia danych.</string>
+    <string name="state_error_disk_space">Nie wystarczająco miejsca na dysku!</string>
+    <string name="state_error_download">Problem z pobieraniem.</string>
+    <string formatted="false" name="state_error_not_official_extra">Aktualizacja %s nie możliwa</string>
+    <string name="state_error_not_official_title">Aktualizacje wyłączone.</string>
+    <string name="state_error_unknown">Nieznany błąd.</string>
+    <string name="text_current_version_header_title">Aktualna wersja</string>
+    <string name="text_download_size_header_title">Rozmiar pliku do pobrania</string>
+    <string name="text_download_size_unknown">Nieznana</string>
+    <string name="text_last_checked_header_title">Ostatnio sprawdzana</string>
+    <string name="text_update_version_title">Wersja aktualizacji</string>
+    <string name="title">Aktualizacje systemu</string>
+    <string name="title_networks">Pobierz automatycznie sieci</string>
+    <string name="twenty_five_percent">25</string>
+</resources>

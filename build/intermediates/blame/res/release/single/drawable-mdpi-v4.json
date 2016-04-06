@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/simao/workspace/OpenDelta_RR/build/intermediates/res/merged/release/drawable-mdpi-v4/omnirom_logo.png",
+        "source": "/home/simao/workspace/OpenDelta_RR/res/drawable-mdpi/omnirom_logo.png"
+    },
+    {
+        "merged": "/home/simao/workspace/OpenDelta_RR/build/intermediates/res/merged/release/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/simao/workspace/OpenDelta_RR/res/drawable-mdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Om</string>
+    <string name="action_networks">Nätverk</string>
+    <string name="action_secure_mode">Säkert läge</string>
+    <string formatted="false" name="error_disk_space_sub">%d MiB tillgängligt, %d MiB behövs</string>
+    <string name="flash_after_update_notice_description">Ytterligare uppdateringar finns tillgängliga i mappen &lt;b>FlashAfterUpdate&lt;/b>, men säkert läge är aktiverat. Om du fortsätter kommer dessa uppdateringar &lt;b>inte&lt;/b> att installeras.</string>
+    <string name="flash_after_update_notice_title">Notis</string>
+    <string name="network_unknown">Annat</string>
+    <string name="notify_update_available">En uppdatering är tillgänglig</string>
+    <string name="recovery_notice_description_not_secure">Installation av uppdateringar i det nuvarande läget är endast officiellt stött av &lt;b>TWRP&lt;/b>. &lt;i>Officiella&lt;/i> &lt;b>CWM&lt;/b>-recoveries är &lt;i>inte&lt;/i> stödda, dock finns &lt;i>möjligheten&lt;/i> att några &lt;i>communityutvecklade&lt;/i> versioner av &lt;b>CWM&lt;/b> fortfarande fungerar. Var god se till att du kör en kompatibel recovery innan du fortsätter.</string>
+    <string name="recovery_notice_description_secure">Installation av uppdateringar i det nuvarande läget stöds endast av &lt;b>TWRP&lt;/b>. Var god försäkra dig om att du kör en kompatibel recovery innan du fortsätter.</string>
+    <string name="recovery_notice_title">Notis</string>
+    <string name="secure_mode_disabled_description">Ytterligare uppdateringar kommer att installeras om tillgängliga. Lägg märke till att vilken (illasinnad) mjukvara som helst kan finnas i dessa uppdateringar och genom det få fulla rättigheter till systemet. Försiktighet bör iakttas.</string>
+    <string name="secure_mode_disabled_title">Säkert läge inaktiverat</string>
+    <string name="secure_mode_enabled_description">Uppdateringens kryptografiska signatur kommer att verifieras innan installationen för att bekräfta dess ursprung, och inga övriga uppdateringar kommer att installeras. Detta läge är endast kompatibelt med &lt;b>TWRP&lt;/b>.</string>
+    <string name="secure_mode_enabled_title">Säkert läge aktiverat</string>
+    <string name="state_action_applying">Sammanfogar…</string>
+    <string name="state_action_applying_md5">Verifierar fil…</string>
+    <string name="state_action_applying_patch">Sammanfogar…</string>
+    <string name="state_action_checking">Söker efter uppdateringar…</string>
+    <string name="state_action_checking_md5">Verifierar fil…</string>
+    <string name="state_action_downloading">Laddar ned…</string>
+    <string name="state_action_searching">Söker efter filer…</string>
+    <string name="state_action_searching_md5">Verifierar fil…</string>
+    <string name="title">Systemuppdateringar</string>
+</resources>
