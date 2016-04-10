@@ -38,3 +38,6 @@ privatekey.jks
 
 # Codacy Coverage Reporter directory
 codacy/
+
+# Gradle temp dir
+.gradle/
