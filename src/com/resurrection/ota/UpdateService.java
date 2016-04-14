@@ -571,18 +571,20 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
         }
     }
 
-    private byte[] downloadUrlMemory(String url) {
+    private byte[] downloadUrlMemory(String url, boolean disableLengthCheck) {
         Logger.d("download: %s", url);
 
         HttpURLConnection urlConnection = null;
         try {
             urlConnection = setupHttpsRequest(url);
             if(urlConnection == null) {
+                Logger.d("Url connection is NULL, aborting");
                 return null;
             }
 
             int len = urlConnection.getContentLength();
-            if ((len >= 0) && (len < 1024 * 1024)) {
+            if (disableLengthCheck || (len >= 0) && (len < 1024 * 1024)) {
+                Logger.d("Downloading...");
                 InputStream is = urlConnection.getInputStream();
                 int byteInt;
                 ByteArrayOutputStream byteArray = new ByteArrayOutputStream();
@@ -597,13 +599,18 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
         } catch (Exception e) {
             // Download failed for any number of reasons, timeouts, connection
             // drops, etc. Just log it in debugging mode.
+            Logger.d("Exception while downloading");
             Logger.ex(e);
             return null;
         } finally {
-            if (urlConnection != null) {
+            if (urlConnection != null)
                 urlConnection.disconnect();
-            }
+
         }
+    }
+
+    private byte[] downloadUrlMemory(String url) {
+        return downloadUrlMemory(url, false);
     }
 
     private String downloadUrlMemoryAsString(String url) {
@@ -1223,6 +1230,10 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
             String possibleMatch, boolean[] needsProcessing) {
         // Find the currently flashed ZIP
 
+        File possibleGoodFile = new File(config.getPathBase(), config.getFilenameBase() + ".zip");
+        Logger.d(possibleGoodFile.getAbsolutePath());
+        if(possibleGoodFile.exists()) return possibleGoodFile.getAbsolutePath();
+
         DeltaInfo firstDelta = deltas.get(0);
 
         updateState(STATE_ACTION_SEARCHING, null, null, null, null, null);
@@ -1784,6 +1795,12 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
         return timeSnooze;
     }
 
+    public static String getStringFromBytes(byte[] raw) {
+        try {
+            return new String(raw, "UTF-8");
+        } catch(UnsupportedEncodingException e) {return "";}
+    }
+
     public static void clearState(SharedPreferences prefs) {
         prefs.edit().putString(PREF_LATEST_FULL_NAME, PREF_READY_FILENAME_DEFAULT).commit();
         prefs.edit().putString(PREF_LATEST_DELTA_NAME, PREF_READY_FILENAME_DEFAULT).commit();
@@ -1839,12 +1856,13 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                     List<DeltaInfo> deltas = new ArrayList<DeltaInfo>();
 
                     String flashFilename = null;
-                    (new File(config.getPathBase())).mkdir();
-                    (new File(config.getPathFlashAfterUpdate())).mkdir();
+                    (new File(config.getPathBase())).mkdirs();
+                    (new File(config.getPathFlashAfterUpdate())).mkdirs();
 
                     clearState(prefs);
 
                     String latestFullBuild = getNewestFullBuild();
+                    Logger.d("# Latest full build is " + latestFullBuild);
                     // if we dont even find a build on dl no sense to continue
                     if (latestFullBuild == null) {
                         Logger.d("no latest build found at " + config.getUrlBaseJson() +
@@ -1864,25 +1882,27 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                             config.getUrlBaseDelta(),
                             config.getFilenameBase());
 
+                    Logger.d("#1 Fetch string is " + fetch);
+
                     while (true) {
+                        Logger.d("#2 Entering delta check");
                         DeltaInfo delta = null;
-                        byte[] data = downloadUrlMemory(fetch);
+                        Logger.d("#3 Downloading delta stuff");
+                        byte[] data = downloadUrlMemory(fetch, true);
                         if (data != null && data.length != 0) {
                             try {
+                                Logger.d("#4 Parsing data");
                                 delta = new DeltaInfo(data, false);
                             } catch (JSONException e) {
                                 // There's an error in the JSON. Could be bad JSON,
                                 // could be a 404 text, etc
                                 Logger.ex(e);
                                 delta = null;
-                            } catch (NullPointerException e) {
-                                // Download failed
-                                Logger.ex(e);
-                                delta = null;
                             }
                         }
 
                         if (delta == null) {
+                            Logger.d("# Delta is null!!");
                             // See if we have a revoked version instead, we
                             // still need it for chaining future deltas, but
                             // will not allow flashing this one
@@ -1891,13 +1911,9 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                             if (data != null && data.length != 0) {
                                 try {
                                     delta = new DeltaInfo(data, true);
-                                } catch (JSONException e) {
+                                } catch (JSONException | NullPointerException e) {
                                     // There's an error in the JSON. Could be bad
                                     // JSON, could be a 404 text, etc
-                                    Logger.ex(e);
-                                    delta = null;
-                                } catch (NullPointerException e) {
-                                    // Download failed
                                     Logger.ex(e);
                                     delta = null;
                                 }
@@ -1916,7 +1932,10 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                         deltas.add(delta);
                     }
 
+                    Logger.d(String.valueOf(deltas.size()));
+
                     if (deltas.size() > 0) {
+                        Logger.d("#6 Delta check succeeded!!");
                         // See if we have done past work and have newer ZIPs
                         // than the original of what's currently flashed
 
@@ -1945,7 +1964,7 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                                 deltas.remove(0);
                             }
                         }
-                    }
+                    } else Logger.d("#  Something went wrong in the delta check?");
 
                     while ((deltas.size() > 0) && (deltas.get(deltas.size() - 1).isRevoked())) {
                         // Make sure the last delta is not revoked
