@@ -651,7 +651,7 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
     }
 
     private boolean downloadUrlFile(String url, File f, String matchMD5,
-            DeltaInfo.ProgressListener progressListener) {
+            DeltaInfo.ProgressListener progressListener, boolean disableLengthCheck) {
         Logger.d("download: %s", url);
 
         HttpURLConnection urlConnection = null;
@@ -674,8 +674,9 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                 return false;
             }
             long len = urlConnection.getContentLength();
+            if(len <= 0) len = 20 * 1024L * 1024L;
             long recv = 0;
-            if ((len > 0) && (len < 4L * 1024L * 1024L * 1024L)) {
+            if (disableLengthCheck || (len > 0) && (len < 4L * 1024L * 1024L * 1024L)) {
                 byte[] buffer = new byte[262144];
 
                 InputStream is = urlConnection.getInputStream();
@@ -692,8 +693,8 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
 
                         recv += (long) r;
                         if (progressListener != null)
-                            progressListener.onProgress(
-                                    ((float) recv / (float) len) * 100f, recv,
+                            progressListener.onProgress( (disableLengthCheck ? 0 :
+                                    ((float) recv / (float) len) * 100f), recv,
                                     len);
                     }
                 } finally {
@@ -724,6 +725,11 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                 urlConnection.disconnect();
             }
         }
+    }
+
+    private boolean downloadUrlFile(String url, File f, String matchMD5,
+                                    DeltaInfo.ProgressListener progressListener) {
+        return downloadUrlFile(url, f, matchMD5, progressListener, false);
     }
 
     private boolean downloadUrlFileUnknownSize(String url, final File f,
