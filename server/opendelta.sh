@@ -101,19 +101,27 @@ $BIN_XDELTA -B ${SRC_BUFF} -9evfS none -s work/current.zip work/current_signed.z
 
 MD5_CURRENT=$(getFileMD5 $PATH_CURRENT/$FILE_CURRENT)
 MD5_CURRENT_STORE=$(getFileMD5 work/current.zip)
+# Check if value is empty, and if it is empty, use dummy value instead.
+# That is to prevent JSON errors and make delta work flawlessly.
+if [ -z $MD5_CURRENT_STORE ]; then MD5_CURRENT_STORE=0; fi
 MD5_CURRENT_STORE_SIGNED=$(getFileMD5 work/current_signed.zip)
+if [ -z $MD5_CURRENT_STORE_SIGNED ]; then MD5_CURRENT_STORE_SIGNED=0; fi
 MD5_LAST=$(getFileMD5 $PATH_LAST/$FILE_LAST)
 MD5_LAST_STORE=$(getFileMD5 work/last.zip)
 MD5_LAST_STORE_SIGNED=$(getFileMD5 work/last_signed.zip)
+if [ -z $MD5_LAST_STORE_SIGNED ]; then MD5_LAST_STORE_SIGNED=0; fi
 MD5_UPDATE=$(getFileMD5 out/$FILE_LAST_BASE.update)
 MD5_SIGN=$(getFileMD5 out/$FILE_LAST_BASE.sign)
+if [ -z $MD5_SIGN ]; then MD5_SIGN=0; fi;
 
 SIZE_CURRENT=$(getFileSize $PATH_CURRENT/$FILE_CURRENT)
 SIZE_CURRENT_STORE=$(getFileSize work/current.zip)
 SIZE_CURRENT_STORE_SIGNED=$(getFileSize work/current_signed.zip)
+if [ -z $SIZE_CURRENT_STORE_SIGNED ]; then SIZE_CURRENT_STORE_SIGNED=0; fi
 SIZE_LAST=$(getFileSize $PATH_LAST/$FILE_LAST)
 SIZE_LAST_STORE=$(getFileSize work/last.zip)
 SIZE_LAST_STORE_SIGNED=$(getFileSize work/last_signed.zip)
+if [ -z $SIZE_LAST_STORE_SIGNED ]; then SIZE_LAST_STORE_SIGNED=0; fi
 SIZE_UPDATE=$(getFileSize out/$FILE_LAST_BASE.update)
 SIZE_SIGN=$(getFileSize out/$FILE_LAST_BASE.sign)
 
